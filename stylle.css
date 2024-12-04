@@ -1,0 +1,124 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+#header-img {
+    height: 939px;
+}
+ #header-img {
+    background: url('image/font.jpg') center no-repeat ;
+ }
+ .overlay  {
+ background-color: rgba(128, 128, 128, 0.85);
+ height: 939px;
+ }
+.banner {
+    text-align: center;
+    background-color: blue;
+    color: 
+    aliceblue;
+    height: 2em;
+    font-size: 13px;
+    padding: 1em 0;
+}
+nav >ul >li >img {
+margin-right: 23em;
+}
+.shopping {
+    margin-left: 19em;
+}
+nav ul li {
+    margin-top: 1em;
+}
+nav img,
+nav ul  {
+display: flex;
+flex-direction: row;
+justify-content: center;
+list-style: none;
+margin: 0.5em 0 1em ;
+}
+img {
+    width: 70px;
+}
+nav ul li a {
+    padding: 1em 0.5em;
+    text-decoration: none;
+    color: black;
+    font-size: 17px;
+}
+ nav ul li a:hover {
+    color: rgb(255, 112, 3);
+    font-weight:300;
+}
+.shopping:hover { 
+color: rgb(255, 112, 3);
+text-decoration: none;
+}
+.shopping:active {
+    color: rgb(176, 166, 245);
+}
+span.Rechercher::after {
+    content: "\f002";
+    font-weight: 900;
+    font-family: "Font Awesome 6 Free";
+    border: solid 0px;
+    background-color: aliceblue;
+    padding: 17.5px;
+}
+input {
+ width: 10em;
+ height: 2.5em; 
+ border-top-left-radius: 10px;  
+ margin-left: 10px;
+ border: solid 1px ;
+
+}
+form.input {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5em 0 2em 0;
+}
+input[placeholder="Rechercher"] {
+    padding: 5px ;
+    font-size: 17px ;
+}
+.title {
+    margin-left: 7em;
+    width: 14em;
+    color: whitesmoke;
+    padding: 1em;
+    border-bottom: solid 3px rgb(250, 245, 245);
+    background-color: rgb(60, 24, 241);
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+.flex>h1 {
+    width: 10em ;
+    font-size: 55px ;
+    margin-left: 2em;
+    color: white;
+}
+.flex {
+    display: flex;
+    flex-direction: row;
+}
+
+.flex>img {
+    margin-left: 16em;
+    border: solid 7px rgb(250, 245, 245);
+    border-radius: 20px;
+    width: 25em;
+}
+
+/*
+i.fa-solid.fa-magnifying-glass {
+border: solid 1px black;
+padding: 0.85em;
+display:inline-block ;
+position: absolute;
+left: 10.7%;
+background-color: azure;
+}
